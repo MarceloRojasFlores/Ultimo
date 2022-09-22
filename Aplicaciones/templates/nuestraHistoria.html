@@ -1,0 +1,100 @@
+{% extends 'base.html' %}
+{% load static%}
+{% block content%}
+         <link rel="stylesheet" href="{% static 'css/nuestraHistoria.css' %}"> 
+        <!-- *********************************************************************
+                                IMAGEN COLEGIO                                    
+            ********************************************************************** -->
+            <div class="imagen-colegio">            
+
+            </div>
+         <!-- *********************************************************************
+                             HISTORIA                                
+           ********************************************************************** -->
+    
+           <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark" >
+            <div class="row">
+              <div class="col">
+              <div class="col">
+                <h1 class="display-4 fst-italic">Fundación</h1>
+              
+                <p class="lead my-3">El 18 de agosto de 1970 Por iniciativa de un grupo de profesores de la Universidad Industrial de Santander, nació la idea de crear un colegio para Preescolar y Primaria, preferencialmente para hijos del personal vinculado a la UIS, dejándose la posibilidad de recibir alumnos hijos de personas externas o sin vínculos con la UIS para ocupar cupos disponibles.</p>
+              </div>
+            </div>
+            <div class="col">
+              <img  src="{%static 'img/somos.jpg' %}" height="400px">
+            </div>
+          </div>
+            </div>
+   <!-- *********************************************************************
+                             HISTORIA   2000-2005                             
+           ********************************************************************** -->
+           <div class="container">
+           <div class="row g-5">
+            <div class="col-md-8">
+           <article class="blog-post">
+            <h2 class="blog-post-title">Período 1998-2005</h2>
+            
+    
+            <p>En el período 1998-2005 se continuó con el Plan CELCO con algunas modificaciones pedagógicas de acuerdo a los cambios metodológicos de la nueva realidad del estudiante, de la familia y de la sociedad boliviana. El año 1998 en la presidencia del Lic. Ramiro Verduguez se nombró como Directora del colegio a la Prof. Nélida Hormaeche, cuya gestión duro dos años (1998-1999). El Presidente del Consejo Educativo P. Paulau S.J. en coordinación con la Dirección y Subdirecciones organizó una nueva estructuración pedagógica que consistía en orientar a los estudiantes de Cuarto Medio hacia una carrera universitaria en tres áreas: Físico – Matemático, Químico – Biológico y Humanístico – Social. Al término de la gestión de la Prof. Nélida Hormaeche, asumió la Dirección el Lic. Giovanni Machicado Romero en el año 2000. Bajo su dirección; durante los años 2000 y 2001 se modificó la planificación curricular en el proceso enseñanza – aprendizaje con las siguientes características: el Plan Global se efectúa en tres niveles después de una prueba diagnóstica. El primer nivel dirigido a conocimientos básicos fundamentales que el estudiante debe adquirir dentro del proceso de aprendizaje. El segundo nivel consiste en la adquisición de conocimientos complementarios con la finalidad de obtener un nivel de Pensamiento Crítico. El tercer nivel da mayor importancia a conocimientos súper – erogatorios que busca formar y profundizar un Pensamiento Crítico – Creativo.</p>
+
+  
+            <h3>Consejo Administrativo</h3>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Nombre</th>
+                  <th>Cargo</th>
+         
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Maria Cardenas SotoAlice</td>
+                  <td>Presidente</td>
+         
+                </tr>
+                <tr>
+                  <td>Jaime Perez Rocha</td>
+                  <td>	Vicepresidente</td>
+              
+                </tr>
+                <tr>
+                  <td>Paola Zulema Soliz</td>
+                  <td>	Tesorero</td>
+            
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <td>Ana Garcia Choque</td>
+                  <td>Secretaria</td>
+                 
+                </tr>
+              </tfoot>
+            </table>
+    
+          </article>
+        </div>
+      </div>
+    </div>
+
+     <!-- *********************************************************************
+                               Eventos                                  
+           ********************************************************************** -->
+
+
+            <div class="evento">
+             <h1>Promociones</h1>
+         </div>
+
+         <div  class="contenedor-galeria">
+          <img src="{% static 'img/promocion.jpg'%}" alt=""  class="galeria_img">
+          <img src="{% static 'img/promocion2.jpg'%}" alt=""  class="galeria_img">
+          <img src="{% static 'img/promocion3.jpg'%}" alt=""  class="galeria_img">
+          <img src="{% static 'img/promocion4.jpg'%}" alt=""  class="galeria_img">
+      </div>
+      
+
+{%endblock%}
+    

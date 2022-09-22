@@ -1,0 +1,49 @@
+
+/***********************************************************************
+                EVENTOS-RECUERDOS                             
+************************************************************************/
+.evento{
+    width: 100%;
+}
+.evento h1{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    color: #000000;
+    text-shadow:0 0 8px rgb(0, 0, 0,0.8);
+    font-size: 85px;
+}
+
+
+
+/* contenedor */
+.contenedor-galeria{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width:1000px;
+    margin:auto;
+}
+
+.galeria_img{
+    width: 200px;
+    height: 250px;
+    margin-bottom: 70px;
+    object-fit: cover;
+    filter:brightness(100%)
+}
+.galeria_img:hover {
+    filter: brightness(90%)
+}
+
+
+
+.contenedor-galeria img{
+    border-radius: 15%;
+  
+}
+
+.contenedor-galeria img:hover{
+    border: 5px solid #ffffff;
+}

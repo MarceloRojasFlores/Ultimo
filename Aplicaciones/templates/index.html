@@ -1,0 +1,150 @@
+{% extends "base.html" %}
+{% load static %}
+{% block  titulo %}Inicio{% endblock %}
+  
+ 
+{% block content %} 
+<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="5000">
+      <img src="{% static 'img/carusel1.jpg' %}" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class="d-inline p-2 bg-dark text-white">Bienvenido Al Colegio Aguilas De America</h5>
+        <p class="d-table bg-dark text-white" > El objetivo del colegio Aguilas De America es ayudar a los niños, jovenes y adolescentes a dar sus primeros pasos hacia el descubrimiento de lo divertido de estudiar. 
+          Es un proyecto educativo mayor; ésta se enfoca, de manera formal y 
+          sistemática, en los aspectos de la motricidad, el conocimiento y las relaciones sociales vinculados al desarrollo educativo.</p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="{% static 'img/carusel2.jpg' %}" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class="d-inline p-2 bg-dark text-white">Actividades</h5>
+        <p class="d-table bg-dark text-white" > El colegio trabaja dos grandes áreas de importancia para el desarrollo integral de nuestra comunidad
+          estudiantil: la actividad física y el deporte. La primera en base a un programa de estimulación de 
+          ejercicios para el mantenimiento del buen estado físico.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="{% static 'img/carusel3.jpg' %}" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class="d-inline p-2 bg-dark text-white">Creatividades</h5>
+        <p class="d-table bg-dark text-white" > La creatividad tiene gran relevancia en la educación actual y es una temática que se aborda desde el área de la Neuropsicología. Es por ello que tiene una especial importancia que los profesores nos formemos en aspectos relacionados con este campo de estudio para, de esta manera, conocer mejor los procesos
+          neuropsicológicos y poder contribuir al desarrollo del potencial creativo de nuestros alumnos</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<img src="{% static 'img/poo.jpg' %}" class="img-fluid" alt="...">
+
+<div class="px-4 pt-5  text-center border-bottom bg-secondary">
+  <h1 class="display-4 fw-bold text-white">Nuestra Comunidad</h1>
+  <div class="col-lg-6 mx-auto">
+    <p class="lead mb-4 text-white">Organizada en base a una estructura administrativa y académica que integra 
+      diferentes instancias y programas destinados al desarrollo y fortalecimiento de 
+      nuestra comunidad.</p>
+  </div>
+</div>
+
+
+
+
+<div class="album py-5 bg-light">
+  <div class="container">
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+  <div class="col">
+    <div class="card shadow-sm">
+      <img class="bd-placeholder-img card-img-top" src="{% static 'img/est.jpg' %}" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/></img>
+
+      <div class="card-body">
+        <p class="card-text">Ambiente cálido, acogedor y familiar, que los/as jóvenes y señoritas reconocen como su hogar.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card shadow-sm">
+      <img class="bd-placeholder-img card-img-top" src="{% static 'img/doc.jpg' %}" width="10%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/></img>
+
+      <div class="card-body">
+        <p class="card-text">Profesionales educadores pertinentes que respetan el ritmo de aprendizaje de cada estudiante</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card shadow-sm">
+      <img class="bd-placeholder-img card-img-top" src="{% static 'img/educ.jpg' %}" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/></img>
+
+      <div class="card-body">
+        <p class="card-text">Educación y práctica de valores, reforzando aquellos que asimilaron en sus familias.</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+</div>
+</div>
+
+
+
+
+<div class="px-4 pt-5  text-center border-bottom bg-secondary">
+  <h1 class="display-4 fw-bold text-white">Nuestra Infraestructura</h1>
+  <div class="col-lg-6 mx-auto">
+    <p class="lead mb-4 text-white">Organizada en base a una estructura administrativa y académica que integra 
+      diferentes instancias y programas destinados al desarrollo y fortalecimiento de 
+      nuestra comunidad.</p>
+  </div>
+</div>
+
+
+
+
+<div class="album py-5 bg-light">
+  <div class="container">
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+  <div class="col">
+    <div class="card shadow-sm">
+      <img class="bd-placeholder-img card-img-top" src="{% static 'img/infra1.jpg' %}" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card shadow-sm">
+      <img class="bd-placeholder-img card-img-top" src="{% static 'img/infra2.jpg' %}" width="10%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card shadow-sm">
+      <img class="bd-placeholder-img card-img-top" src="{% static 'img/infra3.jpg' %}" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/>
+     
+  </div>
+
+</div>
+</div>
+</div>
+
+<div class="px-4 pt-5 my-5 text-center border-bottom">
+  <h1 class="display-4 fw-bold">¿Por Qué Estudiar con Nosotros?</h1>
+  <div class="col-lg-6 mx-auto">
+    <p class="lead mb-4">Somos una institución de renombre en Cochabamba que oferta una educación completa.
+      En los tres niveles escolares se repiten algunos rasgos positivos y preponderantes que le dan un sello especial a la Unidad Educativa Centro America.</p>
+  </div>
+  <div class="overflow-hidden" style="max-height: 50vh;">
+    <div class="container px-5">
+      <img src="{% static 'img/4.png' %}" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy">
+    </div>
+  </div>
+</div>
+
+{% endblock %}

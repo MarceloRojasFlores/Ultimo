@@ -1,0 +1,32 @@
+
+/* contenedor */
+.contenedor-galeria{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width:1000px;
+    margin:auto;
+}
+
+.galeria_img{
+    width: 200px;
+    height: 250px;
+    margin-bottom: 70px;
+    object-fit: cover;
+    filter:brightness(100%)
+}
+.galeria_img:hover {
+    filter: brightness(90%)
+}
+
+
+
+.contenedor-galeria img{
+    border-radius: 15%;
+  
+}
+
+.contenedor-galeria img:hover{
+    border: 5px solid #ffffff;
+}

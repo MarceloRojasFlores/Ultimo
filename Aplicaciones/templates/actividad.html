@@ -1,0 +1,60 @@
+ {% extends 'base.html' %}
+ {% load static %}
+        <!-- *********************************************************************
+                                IMAGEN COLEGIO                                    
+            ********************************************************************** -->
+{%block content%}
+<link rel="stylesheet" href="{% static 'css/actividad.css' %}">
+
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="{% static 'img/dance.jpg' %}" class="d-block w-100" alt="">
+      </div>
+    </div>
+  </div>
+
+  <div class="px-4 py-5 my-5 text-center">
+    <h1 class="display-5 fw-bold">Año Deportivo</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">Un par de eventos importantes en la agenda comunitaria del colegio, en los cuales las familias interactúan a través de juegos, diversión y muchas sorpresas.</p>
+    </div>
+  </div>
+  <div  class="contenedor-galeria">
+    <img src="{% static 'img/añodp1.jpg' %}" alt=""  class="galeria_img">
+    <img src="{% static 'img/añodp2.jpg' %}" alt=""  class="galeria_img">
+    <img src="{% static 'img/añodp3.jpg' %}" alt=""  class="galeria_img">
+    <img src="{% static 'img/añodp4.jpg' %}" alt=""  class="galeria_img">
+</div>
+
+
+
+
+<div class="px-4 py-5 my-5 text-center">
+    <h1 class="display-5 fw-bold">Semana Santa</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">Bajo nuestra premisa espiritual ignaciana, la Semana Santa ocupa un espacio importante en nuestro calendario de actividades. El vía crucis, representado por estudiantes de la promoción, se ha transformado en un evento que integra a docentes y estudiantes, así como a vecinos de nuestro colegio, recuperando valores religiosos importantes para nuestra comunidad, y convirtiéndonos en referentes regional</p>
+    </div>
+  </div>
+  <div  class="contenedor-galeria">
+    <img src="{% static 'img/semana1.jpg'%}" alt=""  class="galeria_img">
+    <img src="{% static 'img/semana2.jpg'%}" alt=""  class="galeria_img">
+    <img src="{% static 'img/semana3.jpg'%}" alt=""  class="galeria_img">
+    <img src="{% static 'img/semana4.jpg'%}" alt=""  class="galeria_img">
+</div>
+
+
+<div class="px-4 py-5 my-5 text-center">
+    <h1 class="display-5 fw-bold">Dia del Padre</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">Un par de eventos importantes en la agenda comunitaria del colegio, en los cuales las familias interactúan a través de juegos, diversión y muchas sorpresas.</p>
+    </div>
+  </div>
+  <div  class="contenedor-galeria">
+    <img src="{% static 'img/dia.jpg' %}" alt=""  class="galeria_img">
+    <img src="{% static 'img/dia2.jpg' %}" alt=""  class="galeria_img">
+    <img src="{% static 'img/dia3.jpg' %}" alt=""  class="galeria_img">
+    <img src="{% static 'img/dia4.jpg' %}" alt=""  class="galeria_img">
+</div>
+
+{%endblock%}
