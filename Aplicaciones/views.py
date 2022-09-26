@@ -21,7 +21,8 @@ def nuestraHistoria(request):
 
 def IniciarSesion(request):
     return render(request,'IniciarSesion.html')  
-
+def biblioteca(request):
+    return render(request,'biblioteca.html') 
 
 def login_autenticacion(request):
     if request.method=="POST":

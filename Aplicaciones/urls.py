@@ -13,4 +13,5 @@ urlpatterns = [
     path('actividad/',views.actividad, name='actividad'),
     path('historia/',views.nuestraHistoria, name='historia'),
     path('IniciarSesion/',views.IniciarSesion, name='IniciarSesion'),
+     path('biblioteca/',views.biblioteca, name='biblioteca'),
 ]
